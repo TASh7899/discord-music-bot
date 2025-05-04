@@ -36,7 +36,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### 3. **Install Dependencies**
 
 ```bash
-pip install -r requirements.txt
+pip install -U discord.py yt-dlp python-dotenv
 ```
 
 ### 4. **Create a `.env` File**
@@ -70,7 +70,7 @@ python3 main.py
 Make sure you have:
 
 * Python 3.8 or above
-* `ffmpeg` installed and added to your system PATH
+* `ffmpeg` installed 
 
 
 ---
