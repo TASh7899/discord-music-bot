@@ -99,7 +99,7 @@ async def ytp(ctx, *, search: str):
     await add_to_queue(ctx, search)
 
     #play next if something is not playing
-    if not ctx.voice_client.is_playing():
+    if not ctx.voice_client.is_playing() and not ctx.voice_client.is_paused():
         await play_next(ctx)
 
 
