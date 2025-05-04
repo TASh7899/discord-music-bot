@@ -2,6 +2,7 @@
 
 A simple YouTube-powered music bot for Discord built with Python and `discord.py`. It supports playing songs, queuing, pausing, resuming, skipping, and more using the `$` prefix.
 
+
 ---
 
 ## ✨ Features
@@ -12,6 +13,7 @@ A simple YouTube-powered music bot for Discord built with Python and `discord.py
 - 📂 View and remove songs from the queue
 - 📤 Auto-disconnect when queue is empty
 - 🧠 Help command with embedded info
+
 
 ---
 
@@ -60,6 +62,7 @@ Go to the [Discord Developer Portal](https://discord.com/developers/applications
 python3 main.py
 ```
 
+
 ---
 
 ### ✅ Requirements
@@ -87,6 +90,8 @@ Make sure you have:
 | `$ytremove <index>`       | Removes a song from the queue at the given index |
 | `$yts`                    | Stops the bot and clears the queue               |
 | `$musichelp`              | Shows the command help menu (embed)              |
+
+
 
 ---
 
